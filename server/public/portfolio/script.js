@@ -18,7 +18,6 @@ $("#navbar-top > li").hover(
  
  }, function() {
  	// $(this).find("li").switchClass("block", "none",0);
- 	$(this).find("ul,ol").children.stop(true);
  	$(this).find("ul,ol").children().hide("fade");
  	$(this).switchClass("hover", "nohover", hoverAnimationTime);
 

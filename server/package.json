@@ -1,0 +1,19 @@
+{
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "chatServer.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "chatserver",
+    "heroku",
+    "express"
+  ],
+  "author": "Nathan Jewell",
+  "license": "MIT"
+}
